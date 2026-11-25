@@ -8,7 +8,9 @@ import java.net.Socket;
 import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
+
 public class Cliente {
+	
 	public static void main(String[] args) {
 		String host = "127.0.0.1";
 		int puerto = 5000;
@@ -39,5 +41,6 @@ public class Cliente {
 		            System.err.println("No se pudo conectar con el servidor: " + e.getMessage());
 		        }
 		    }
-		}
 	
+
+		}
